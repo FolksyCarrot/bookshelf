@@ -1,0 +1,73 @@
+{
+    "shelfs": [
+        {
+            "id": 1,
+            "shelfNumber": 1
+        },
+        {
+            "id": 2,
+            "shelfNumber": 2
+        }
+    ],
+    "books": [
+        {
+            "id": 1,
+            "name": "Moby Dick"
+        },
+        {
+            "id": 2,
+            "name": "Dairy of a wimpy kid"
+        },
+        {
+            "id": 3,
+            "name": "Twilight"
+        },
+        {
+            "id": 4,
+            "name": "Almanac"
+        },
+        {
+            "id": 5,
+            "name": "Phone Book"
+        },
+        {
+            "id": 6,
+            "name": "Twilight part 2"
+        }
+    ],
+    "booksOnShelf": [
+        {
+            "id": 1,
+            "bookId": 6,
+            "shelfId": 1
+        },
+        {
+            "id": 2,
+            "bookId": 5,
+            "shelfId": 1
+        },
+        {
+            "id": 3,
+            "bookId": 4,
+            "shelfId": 1
+        },
+        {
+            "id": 4,
+            "bookId": 3,
+            "shelfId": 2
+        },
+        {
+            "id": 5,
+            "bookId": 2,
+            "shelfId": 2
+        },
+        {
+            "id": 6,
+            "bookId": 1,
+            "shelfId": 2
+        }
+    ]
+}
+
+
+
