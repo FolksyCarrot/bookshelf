@@ -1,3 +1,5 @@
+import { books } from "./books.js"
+
 export const bookShelfHtml = () => {
     return `
     <h1>Books on Shelf</h1>
@@ -7,6 +9,7 @@ export const bookShelfHtml = () => {
 
     <div>
         <h2>Books</h2>
+        ${books()}
     </div>
 
     <button>Submit button</button>
