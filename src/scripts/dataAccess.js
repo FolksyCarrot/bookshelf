@@ -47,3 +47,6 @@ export const fetchShelves = () => {
 }
 
 export const getShelves = () => applicationState.shelfs.map(shelf => ({ ...shelf }))
+
+export const setBookShelfOne = (boolean) => applicationState.HtmlState.bookShelfOneHtml = boolean
+export const setBookShelfTwo = (boolean) => applicationState.HtmlState.bookShelfTwoHtml = boolean
